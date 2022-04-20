@@ -76,7 +76,7 @@ public class CUI {
 		System.out.println("Student Information");
 
 		for (Student s : API.getAllStudents()) {
-			System.out.printf("%s, %20s, %20s, %20s, %20s, %s", s.id, s.fullName, s.mobileNumber, s.address,
+			System.out.printf("%s, %20s, %20s, %20s, %20s, %s%n", s.id, s.fullName, s.mobileNumber, s.address,
 					s.getStage().name, s.getDepartment().name);
 		}
 
